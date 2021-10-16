@@ -1,2 +1,5 @@
 # Codewars
-Codewars solutions
+
+Notable Codewars challenge solutions
+
+https://www.codewars.com/users/mtzionfox
