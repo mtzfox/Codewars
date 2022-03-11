@@ -1,3 +1,11 @@
+/*
+Format a string of names like 'Bart, Lisa & Maggie'.
+
+If 2 names - Bart & Lisa
+If 3 name - Bart, Lisa & Maggie
+
+*/
+
 function list(names) {
 	let family = '';
 	let count = names.length;

@@ -1,4 +1,31 @@
-// Still in progress - lots of refactoring needed
+/*
+https://www.codewars.com/kata/54b724efac3d5402db00065e
+
+Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
+
+For example:
+
+decodeMorse('.... . -.--   .--- ..- -.. .')   //returns "HEY JUDE"
+
+*/
+
+// Second attempt - working
+
+decodeMorse = function(morseCode){
+
+  const decodeLetter = (letter) => {
+    return MORSE_CODE[letter];
+  }
+  const decodeWord = (word) => {
+    return word.split(' ').map(decodeLetter).join('');
+  }
+  
+  return morseCode.trim().split('   ').map(decodeWord).join(' ');
+}
+
+
+
+// First attempt - couldn't get it to work
 
 decodeMorse = function (morseCode) {
   //const MC = MORSE_CODE['.--']

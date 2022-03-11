@@ -1,3 +1,10 @@
+/*
+Your task, is to create NxN multiplication table, of size provided in parameter.
+
+
+
+*/
+
 multiplicationTable = function (size) {
 	// array for all returned num arrays
 	const tables = [];
